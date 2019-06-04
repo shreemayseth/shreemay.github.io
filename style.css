@@ -10,8 +10,6 @@ header .carousel-inner .item{
 	background-color: transparent;
 	border-color: transparent;
 	font-weight: bold;
-	float: none;
-	justify-content: center;
 }
 
 .navbar-default .navbar-brand{
