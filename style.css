@@ -1,37 +1,63 @@
 body{
 	font-family: poppins;
 	background-image: url(https://stmed.net/sites/default/files/turquoise-black-wallpapers-25327-1341092.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
 }
 
 header .carousel-inner .item{
 	height: 100vh;
 }
-.container .navbar-default{
+header .navbar-inverse{
 	background-color: transparent;
 	border-color: transparent;
 	font-weight: bold;
+	font-size: 15px;
+	height: 20px;
+	top: 2%;
 }
 
-.navbar-default .navbar-brand{
+.navbar-inverse .navbar-brand{
 	color: #fff;
 	font-size: 40px;
-	padding: 40px 15px;
+	padding: 0px 15px;
 	font-weight: 900;
 }
 
 .nav .navbar-nav .navbar-right{
-	margin: 25px 0;
+	margin: 250px 0;
 }
 
-.navbar .navbar-nav > li > a{
+.nav .navbar-nav .navbar-right .active{
+	background-color: none;
+	background-image: none;
+}
+
+.navbar-inverse .navbar-nav > li > a{
 	color: #fff;
 	text-transform: uppercase;
+	background-color: transparent;
+}
+
+ul.dropdown-menu{
+	color: #fff;
+	background-color: transparent;
+	font-weight: bold;
+	
+}
+ul.dropdown-menu >li>a:hover{
+	color: #fff;
+	background-color: transparent;
+	background-image: none; 
+	font-weight: bold;
 }
 
 .banner{
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-position: center;
+	background-position: center center;
 	background-repeat: no-repeat;
 	height: 100vh;
 }
@@ -44,7 +70,7 @@ header .carousel-inner .item{
 }
 
 .carousel-caption h2{
-	font-size: 70px;
+	font-size: 75px;
 	text-transform: ;
 	font-weight: bold;
 }
@@ -55,11 +81,17 @@ header .carousel-inner .item{
 }
 
 .carousel-caption a{
-	background:#edbb00;
-	padding: 15px 35px;
+	padding: 10px 20px;
 	display: inline-block;
 	margin-top: 15px;
 	color: #fff;
 	text-transform: uppercase;
 	border-radius: 25px;
+	
+}
+
+.carousel-caption a:hover{
+	opacity: 0.9;
+	color: white;
+
 }
